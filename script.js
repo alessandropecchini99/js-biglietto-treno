@@ -39,4 +39,3 @@ if (age < 18) {
     console.log(totale);
     document.writeln(`<h1>` + `Prezzo scontato:` + ` ` + totale.toFixed(2) + `€` + `</h1>`);
 }
-
