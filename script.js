@@ -30,12 +30,12 @@ if (age < 18) {
     console.log(`minorenne`);
     const totale = (ticket - (ticket * 20 / 100));
     console.log(totale);
-    document.writeln(`<h1>` + `Prezzo scontato:` + ` ` + totale.toFixed(2) + `€` + `</h1>`);
+    document.writeln(`<h2>` + `Prezzo scontato:` + ` ` + totale.toFixed(2) + `€` + `</h2>`);
 } else if (age >= 18 && age < 65) {
     console.log(`adulto`);
 } else {
     console.log(`anziano`);
     const totale = (ticket - (ticket * 40 / 100));
     console.log(totale);
-    document.writeln(`<h1>` + `Prezzo scontato:` + ` ` + totale.toFixed(2) + `€` + `</h1>`);
+    document.writeln(`<h2>` + `Prezzo scontato:` + ` ` + totale.toFixed(2) + `€` + `</h2>`);
 }
